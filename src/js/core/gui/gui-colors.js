@@ -10,6 +10,7 @@ import alertify from './../../../../node_modules/alertifyjs/build/alertify.min.j
 var Helper = new Helper_class();
 
 var template = `
+	<div>
 		<span class="trn bold hex">Hex:</span>
 		<input type="text" class="color_hex" id="color_hex" value="#000000" />
 		<br />
@@ -47,6 +48,7 @@ class GUI_colors_class {
 
 	render_main_colors() {
 		document.getElementById('toggle_colors').innerHTML = template;
+		document.getElementById('toggle_colors').style.display = 'none';
 		this.render_colors();
 		this.set_events();
 	}

@@ -27,6 +27,7 @@ window.addEventListener('load', function (e) {
 	window.Layers = Layers;
 	window.AppConfig = config;
 	window.State = Base_state;	// window.State.save();
+	window.GUI = GUI;	// window.State.save();
 
 	//render all
 	GUI.load_modules();

@@ -48,7 +48,6 @@ class GUI_tools_class {
 
 	render_main_tools() {
 		this.load_plugins();
-
 		this.render_tools();
 	}
 

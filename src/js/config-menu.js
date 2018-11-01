@@ -9,21 +9,27 @@ var menu_template = `
 					<a class="trn" href="#">Open</a>
 					<ul>
 					<li><a class="trn dots" data-target="file/open.open_file" data-key="Drag&Drop" href="#">Open File</a></li>
-					<li><a class="trn dots" data-target="file/open.open_dir" href="#">Open Directory</a></li>
+					<!--li><a class="trn dots" data-target="file/open.open_dir" href="#">Open Directory</a></li-->
 					<li><a class="trn dots" data-target="file/open.open_webcam" href="#">Open from Webcam</a></li>
-					<li><a class="trn dots" data-target="file/open.open_url" href="#">Open URL</a></li>
-					<li><a class="trn dots" data-target="file/open.open_data_url" href="#">Open Data URL</a></li>
-					<li><a class="trn dots" data-target="file/open.open_template_test" href="#">Open test template</a></li>
+					<!--li><a class="trn dots" data-target="file/open.open_url" href="#">Open URL</a></li-->
+					<!--li><a class="trn dots" data-target="file/open.open_data_url" href="#">Open Data URL</a></li-->
+					<!--li><a class="trn dots" data-target="file/open.open_template_test" href="#">Open test template</a></li-->
 					</ul>
 				</li>
 				<li><a class="trn dots" data-target="file/search.search" href="#">Search images</a></li>
 				<li><div class="mid-line"></div></li>
-				<li><a class="trn dots" data-target="file/save.save" data-key="S" href="#">Save as</a></li>
-				<li><a class="trn dots" data-target="file/save.save_data_url" href="#">Save as data URL</a></li>
-				<li><a class="trn dots" data-target="file/print.print" data-key="Ctrl-P" href="#">Print</a></li>
+				<!--li><a class="trn dots" data-target="file/save.save" data-key="S" href="#">Save as</a></li -->
+				<!--li><a class="trn dots" data-target="file/save.save_data_url" href="#">Save as data URL</a></li-->
+				<!--li><a class="trn dots" data-target="file/print.print" data-key="Ctrl-P" href="#">Print</a></li-->
+				<!--li><div class="mid-line"></div></li-->
+				<!--li><a class="trn" data-target="file/quicksave.quicksave" data-key="F9" href="#">Quick save</a></li-->
+				<!--li><a class="trn" data-target="file/quickload.quickload" data-key="F10" href="#">Quick load</a></li-->
 				<li><div class="mid-line"></div></li>
-				<li><a class="trn" data-target="file/quicksave.quicksave" data-key="F9" href="#">Quick save</a></li>
-				<li><a class="trn" data-target="file/quickload.quickload" data-key="F10" href="#">Quick load</a></li>
+				<li><a class="trn" data-target="imed/interface.delete" href="#">Delete</a></li>
+				<li><a class="trn" data-target="imed/interface.save" href="#">Save</a></li>
+				<li><a class="trn" data-target="imed/interface.save_and_close" href="#">Save and Close</a></li>
+				<li><a class="trn" data-target="imed/interface.close" href="#">Close</a></li>
+
 			</ul>
 		</li>
 		<li>
@@ -65,15 +71,15 @@ var menu_template = `
 					</ul>
 				</li>
 				<li><a class="trn dots" data-target="image/translate.translate" href="#">Translate</a></li>
-				<li><a class="trn dots" data-target="image/opacity.opacity" href="#">Opacity</a></li>
+				<!--li><a class="trn dots" data-target="image/opacity.opacity" href="#">Opacity</a></li-->
 				<li><div class="mid-line"></div></li>
-				<li><a class="trn dots" data-target="image/color_corrections.color_corrections" href="#">Color corrections</a></li>
+				<!--li><a class="trn dots" data-target="image/color_corrections.color_corrections" href="#">Color corrections</a></li-->
 				<li><a class="trn" data-target="image/auto_adjust.auto_adjust" href="#">Auto adjust colors</a></li>
-				<li><a class="trn" data-target="image/decrease_colors.decrease_colors" href="#">Decrease color depth</a></li>
+				<!--li><a class="trn" data-target="image/decrease_colors.decrease_colors" href="#">Decrease color depth</a></li-->
 				<li><a class="trn dots" data-target="image/palette.palette" href="#">Color palette</a></li>
 				<li><a class="trn dots" data-target="image/grid.grid" data-key="G" href="#">Grid</a></li>
 				<li><div class="mid-line"></div></li>
-				<li><a class="trn dots" data-target="image/histogram.histogram" data-key="H" href="#">Histogram</a></li>
+				<!--li><a class="trn dots" data-target="image/histogram.histogram" data-key="H" href="#">Histogram</a></li-->
 			</ul>
 		</li>
 		<li>
@@ -94,16 +100,16 @@ var menu_template = `
 						<li><a class="trn" data-target="layer/move.down" href="#">Down</a></li>
 					</ul>
 				</li>
-				<li><a class="trn dots" data-target="layer/composition.composition" href="#">Composition</a></li>
+				<!--li><a class="trn dots" data-target="layer/composition.composition" href="#">Composition</a></li-->
 				<li><a class="trn dots" data-target="layer/rename.rename" href="#">Rename</a></li>
 				<li><a class="trn" data-target="layer/clear.clear" href="#">Clear</a></li>
 				<li><div class="mid-line"></div></li>
-				<li><a class="trn" data-target="layer/differences.differences" href="#">Differences Down</a></li>
+				<!--li><a class="trn" data-target="layer/differences.differences" href="#">Differences Down</a></li-->
 				<li><a class="trn" data-target="layer/merge.merge" href="#">Merge Down</a></li>
 				<li><a class="trn" data-target="layer/flatten.flatten" href="#">Flatten Image</a></li>
 			</ul>
 		</li>
-		<li>
+		<!-- <li>
 			<a class="trn" href="#">Effects</a>
 			<ul id="effects_list">
 				<li><div class="mid-line"></div></li>
@@ -144,8 +150,8 @@ var menu_template = `
 				<li><a class="trn dots" data-target="effects/vintage.vintage" href="#">Vintage</a>
 				<li><a class="trn dots" data-target="effects/zoom_blur.zoom_blur" href="#">Zoom Blur</a>
 			</ul>
-		</li>
-		<li>
+		</li> -->
+		<!-- li>
 			<a class="trn" href="#">Tools</a>
 			<ul>
 				<li><div class="mid-line"></div></li>
@@ -161,18 +167,18 @@ var menu_template = `
 				<li><div class="mid-line"></div></li>
 				<li><a class="trn dots" data-target="tools/settings.settings" href="#">Settings</a></li>	
 			</ul>
-		</li>
+		</li -->
 		<li>
 			<a class="trn" href="#">Help</a>
 			<ul>
 				<li><a class="trn dots" data-target="help/shortcuts.shortcuts" href="#">Keyboard Shortcuts</a></li>
-				<li><a class="trn external" target="_blank" href="https://github.com/viliusle/miniPaint/issues">Report issues</a></li>
-				<li class="more">
+				<!--li><a class="trn external" target="_blank" href="https://github.com/viliusle/miniPaint/issues">Report issues</a></li -->
+				<!--li class="more">
 					<a class="trn" href="#">Language</a>
 					<ul>
 						<li><a data-target="help/translate.translate.en" href="#">English</a>
 						<li><div class="mid-line"></div></li>
-						<li><a data-target="help/translate.translate.zh" href="#">简体中文）</a>
+						<li><a data-target="help/translate.translate.zh" href="#">简体中����</a>
 						<li><a data-target="help/translate.translate.es" href="#">Español</a>
 						<li><a data-target="help/translate.translate.fr" href="#">French</a>	
 						<li><a data-target="help/translate.translate.de" href="#">German</a>	
@@ -184,7 +190,7 @@ var menu_template = `
 						<li><a data-target="help/translate.translate.ru" href="#">Russian</a>	
 						<li><a data-target="help/translate.translate.tr" href="#">Turkish</a>	
 					</ul>
-				</li>
+				</li -->
 				<li><div class="mid-line"></div></li>
 				<li><a class="trn dots" data-target="help/about.about" href="#">About</a></li>
 			</ul>

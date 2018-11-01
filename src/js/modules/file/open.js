@@ -347,7 +347,7 @@ class File_open_class {
 				config.need_render = true;
 			};
 			_this.Base_layers.insert(new_layer);
-			_this.Base_layers.autoresize(img.width, img.height);
+			// _this.Base_layers.autoresize(img.width, img.height);
 		};
 		img.onerror = function (ex) {
 			alertify.error('Sorry, image could not be loaded. Try copy image and paste it.');

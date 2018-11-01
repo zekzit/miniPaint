@@ -1,0 +1,1 @@
+copy dist\bundle.js D:\imed-svn\x\code\imedweb\imed.war\dialog\imageEditor\_miniPaint.bundle.js

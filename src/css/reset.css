@@ -12,6 +12,7 @@
 	--background-color-button: #959ca2;
 	--background-color-menu: #2D2D2D;
 	--text-color-menu: #cccccc;
+	--text-color-menu-active: #cccccc;
 	--background-color-active: #419147;
 	--background-color-hover: #b4b9bd;
 	--border-color: #3c3c3c;
@@ -26,6 +27,7 @@ body.theme-light{
 	--background-color-button: #f9f9fa;
 	--background-color-menu: #f1f1f1;
 	--text-color-menu: #333333;
+	--text-color-menu-active: white;
 	--background-color-active: #0a84ff;
 	--background-color-hover: #e1e1e2;
 	--border-color: #c1c1c1;
@@ -40,6 +42,7 @@ body.theme-green{
 	--background-color-button: #2e4a0d;
 	--background-color-menu: #1c2e04;
 	--text-color-menu: #acc3a9;
+	--text-color-menu-active: #acc3a9;
 	--background-color-active: #58960e;
 	--background-color-hover: #58960e;
 	--border-color: #4d6b1e;

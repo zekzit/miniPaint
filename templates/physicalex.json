@@ -1,0 +1,645 @@
+[
+  {
+    "drawing_group_name": "ศรีษะ",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "head_left",
+        "title": "ศรีษะด้านซ้าย",
+        "thumbnail_url": "thumbnails/t_head_left.gif",
+        "img_url": "images/head_left.gif",
+        "objectID": "Head1",
+        "object_id": "Head1"
+      },
+      {
+        "base_drawing_group_id": "head_back",
+        "title": "ศรีษะด้านหลัง",
+        "thumbnail_url": "thumbnails/t_head_back.gif",
+        "img_url": "images/head_back.gif",
+        "objectID": "Head2",
+        "object_id": "Head2"
+      },
+      {
+        "base_drawing_group_id": "head_top",
+        "title": "ศรีษะด้านบน",
+        "thumbnail_url": "thumbnails/t_head_top.gif",
+        "img_url": "images/head_top.gif",
+        "objectID": "Head3",
+        "object_id": "Head3"
+      },
+      {
+        "base_drawing_group_id": "head_right",
+        "title": "ศรีษะด้านขวา",
+        "thumbnail_url": "thumbnails/t_head_right.gif",
+        "img_url": "images/head_right.gif",
+        "objectID": "Head4",
+        "object_id": "Head4"
+      },
+      {
+        "base_drawing_group_id": "head_front",
+        "title": "ศรีษะด้านหน้า",
+        "thumbnail_url": "thumbnails/t_head_front.gif",
+        "img_url": "images/head_front.gif",
+        "objectID": "Head5",
+        "object_id": "Head5"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "เต็มตัว",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "full_front",
+        "title": "เต็มตัวด้านหน้า",
+        "thumbnail_url": "thumbnails/t_full_front.gif",
+        "img_url": "images/full_front.gif",
+        "objectID": "Full1",
+        "object_id": "Full1"
+      },
+      {
+        "base_drawing_group_id": "full_back",
+        "title": "เต็มตัวด้านหลัง",
+        "thumbnail_url": "thumbnails/t_full_back.gif",
+        "img_url": "images/full_back.gif",
+        "objectID": "Full2",
+        "object_id": "Full2"
+      },
+      {
+        "base_drawing_group_id": "Abdomen",
+        "title": "Abdomen",
+        "thumbnail_url": "thumbnails/t_Abdomen.gif",
+        "img_url": "images/Abdomen.gif",
+        "objectID": "Full3",
+        "object_id": "Full3"
+      },
+      {
+        "base_drawing_group_id": "Breast",
+        "title": "Breast",
+        "thumbnail_url": "thumbnails/t_Breast.gif",
+        "img_url": "images/Breast.gif",
+        "objectID": "Full4",
+        "object_id": "Full4"
+      },
+      {
+        "base_drawing_group_id": "Chestman",
+        "title": "Chestman",
+        "thumbnail_url": "thumbnails/t_Chestman.gif",
+        "img_url": "images/Chestman.gif",
+        "objectID": "Full5",
+        "object_id": "Full5"
+      },
+      {
+        "base_drawing_group_id": "Buttock",
+        "title": "Buttock",
+        "thumbnail_url": "thumbnails/t_Buttock.gif",
+        "img_url": "images/Buttock.gif",
+        "objectID": "Full6",
+        "object_id": "Full6"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "มือซ้าย",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "hand_left_back",
+        "title": "หลังมือซ้าย",
+        "thumbnail_url": "thumbnails/t_hand_left_back.gif",
+        "img_url": "images/hand_left_back.gif",
+        "objectID": "LeftHand1",
+        "object_id": "LeftHand1"
+      },
+      {
+        "base_drawing_group_id": "hand_left_front",
+        "title": "ฝ่ามือซ้าย",
+        "thumbnail_url": "thumbnails/t_hand_left_front.gif",
+        "img_url": "images/hand_left_front.gif",
+        "objectID": "LeftHand2",
+        "object_id": "LeftHand2"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "มือขวา",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "hand_right_back",
+        "title": "หลังมือขวา",
+        "thumbnail_url": "thumbnails/t_hand_right_back.gif",
+        "img_url": "images/hand_right_back.gif",
+        "objectID": "RightHand1",
+        "object_id": "RightHand1"
+      },
+      {
+        "base_drawing_group_id": "hand_right_front",
+        "title": "ฝ่ามือขวา",
+        "thumbnail_url": "thumbnails/t_hand_right_front.gif",
+        "img_url": "images/hand_right_front.gif",
+        "objectID": "RightHand2",
+        "object_id": "RightHand2"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "ตาซ้าย",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "eye_left1",
+        "title": "ตาซ้าย1",
+        "thumbnail_url": "thumbnails/t_eye_left1.gif",
+        "img_url": "images/eye_left1.gif",
+        "objectID": "LeftEye1",
+        "object_id": "LeftEye1"
+      },
+      {
+        "base_drawing_group_id": "eye_left2",
+        "title": "ตาซ้าย2",
+        "thumbnail_url": "thumbnails/t_eye_left2.gif",
+        "img_url": "images/eye_left2.gif",
+        "objectID": "LeftEye2",
+        "object_id": "LeftEye2"
+      },
+      {
+        "base_drawing_group_id": "eye_left3",
+        "title": "ตาซ้าย3",
+        "thumbnail_url": "thumbnails/t_eye_left3.gif",
+        "img_url": "images/eye_left3.gif",
+        "objectID": "LeftEye3",
+        "object_id": "LeftEye3"
+      },
+      {
+        "base_drawing_group_id": "eye_left4",
+        "title": "ตาซ้าย4",
+        "thumbnail_url": "thumbnails/t_eye_left4.gif",
+        "img_url": "images/eye_left4.gif",
+        "objectID": "LeftEye4",
+        "object_id": "LeftEye4"
+      },
+      {
+        "base_drawing_group_id": "eye_left5",
+        "title": "ตาซ้าย5",
+        "thumbnail_url": "thumbnails/t_eye_left5.gif",
+        "img_url": "images/eye_left5.gif",
+        "objectID": "LeftEye5",
+        "object_id": "LeftEye5"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "ตาขวา",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "eye_right1",
+        "title": "ตาขวา1",
+        "thumbnail_url": "thumbnails/t_eye_right1.gif",
+        "img_url": "images/eye_right1.gif",
+        "objectID": "RightEye1",
+        "object_id": "RightEye1"
+      },
+      {
+        "base_drawing_group_id": "eye_right2",
+        "title": "ตาขวา2",
+        "thumbnail_url": "thumbnails/t_eye_right2.gif",
+        "img_url": "images/eye_right2.gif",
+        "objectID": "RightEye2",
+        "object_id": "RightEye2"
+      },
+      {
+        "base_drawing_group_id": "eye_right3",
+        "title": "ตาขวา3",
+        "thumbnail_url": "thumbnails/t_eye_right3.gif",
+        "img_url": "images/eye_right3.gif",
+        "objectID": "RightEye3",
+        "object_id": "RightEye3"
+      },
+      {
+        "base_drawing_group_id": "eye_right4",
+        "title": "ตาขวา4",
+        "thumbnail_url": "thumbnails/t_eye_right4.gif",
+        "img_url": "images/eye_right4.gif",
+        "objectID": "RightEye4",
+        "object_id": "RightEye4"
+      },
+      {
+        "base_drawing_group_id": "eye_right5",
+        "title": "ตาขวา5",
+        "thumbnail_url": "thumbnails/t_eye_right5.gif",
+        "img_url": "images/eye_right5.gif",
+        "objectID": "RightEye5",
+        "object_id": "RightEye5"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "เท้าซ้าย",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "foot_left_left",
+        "title": "เท้าซ้ายด้านใน",
+        "thumbnail_url": "thumbnails/t_foot_left_left.gif",
+        "img_url": "images/foot_left_left.gif",
+        "objectID": "LeftFoot1",
+        "object_id": "LeftFoot1"
+      },
+      {
+        "base_drawing_group_id": "foot_left_right",
+        "title": "เท้าซ้ายด้านนอก",
+        "thumbnail_url": "thumbnails/t_foot_left_right.gif",
+        "img_url": "images/foot_left_right.gif",
+        "objectID": "LeftFoot2",
+        "object_id": "LeftFoot2"
+      },
+      {
+        "base_drawing_group_id": "foot_left_front",
+        "title": "ฝ่าเท้าซ้าย",
+        "thumbnail_url": "thumbnails/t_foot_left_front.gif",
+        "img_url": "images/foot_left_front.gif",
+        "objectID": "LeftFoot3",
+        "object_id": "LeftFoot3"
+      },
+      {
+        "base_drawing_group_id": "foot_left_back",
+        "title": "หลังเท้าซ้าย",
+        "thumbnail_url": "thumbnails/t_foot_left_back.gif",
+        "img_url": "images/foot_left_back.gif",
+        "objectID": "LeftFoot4",
+        "object_id": "LeftFoot4"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "เท้าขวา",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "foot_right_left",
+        "title": "เท้าขวาด้านใน",
+        "thumbnail_url": "thumbnails/t_foot_right_left.gif",
+        "img_url": "images/foot_right_left.gif",
+        "objectID": "RightFoot1",
+        "object_id": "RightFoot1"
+      },
+      {
+        "base_drawing_group_id": "foot_right_right",
+        "title": "เท้าขวาด้านนอก",
+        "thumbnail_url": "thumbnails/t_foot_right_right.gif",
+        "img_url": "images/foot_right_right.gif",
+        "objectID": "RightFoot2",
+        "object_id": "RightFoot2"
+      },
+      {
+        "base_drawing_group_id": "foot_right_front",
+        "title": "ฝ่าเท้าขวา",
+        "thumbnail_url": "thumbnails/t_foot_right_front.gif",
+        "img_url": "images/foot_right_front.gif",
+        "objectID": "RightFoot3",
+        "object_id": "RightFoot3"
+      },
+      {
+        "base_drawing_group_id": "foot_right_back",
+        "title": "หลังเท้าขวา",
+        "thumbnail_url": "thumbnails/t_foot_right_back.gif",
+        "img_url": "images/foot_right_back.gif",
+        "objectID": "RightFoot4",
+        "object_id": "RightFoot4"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "สูตินรีเวช",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "gyn_ovary1",
+        "title": "Gyn1",
+        "thumbnail_url": "thumbnails/t_gyn_ovary1.gif",
+        "img_url": "images/gyn_ovary1.gif",
+        "objectID": "Gyn1",
+        "object_id": "Gyn1"
+      },
+      {
+        "base_drawing_group_id": "gyn_ovary2",
+        "title": "Gyn2",
+        "thumbnail_url": "thumbnails/t_gyn_ovary2.gif",
+        "img_url": "images/gyn_ovary2.gif",
+        "objectID": "Gyn2",
+        "object_id": "Gyn2"
+      },
+      {
+        "base_drawing_group_id": "gyn_ovary3",
+        "title": "Gyn3",
+        "thumbnail_url": "thumbnails/t_gyn_ovary3.gif",
+        "img_url": "images/gyn_ovary3.gif",
+        "objectID": "Gyn3",
+        "object_id": "Gyn3"
+      },
+      {
+        "base_drawing_group_id": "gyn_ovary5",
+        "title": "Gyn4",
+        "thumbnail_url": "thumbnails/t_gyn_ovary5.gif",
+        "img_url": "images/gyn_ovary5.gif",
+        "objectID": "Gyn4",
+        "object_id": "Gyn4"
+      },
+      {
+        "base_drawing_group_id": "gyn_ovary6",
+        "title": "Gyn5",
+        "thumbnail_url": "thumbnails/t_gyn_ovary6.gif",
+        "img_url": "images/gyn_ovary6.gif",
+        "objectID": "Gyn5",
+        "object_id": "Gyn5"
+      },
+      {
+        "base_drawing_group_id": "gyn_ovary",
+        "title": "Gyn6",
+        "thumbnail_url": "thumbnails/t_gyn_ovary.gif",
+        "img_url": "images/gyn_ovary.gif",
+        "objectID": "Gyn6",
+        "object_id": "Gyn6"
+      },
+      {
+        "base_drawing_group_id": "gyn_anatomy_front",
+        "title": "Gyn7",
+        "thumbnail_url": "thumbnails/t_gyn_anatomy_front.gif",
+        "img_url": "images/gyn_anatomy_front.gif",
+        "objectID": "Gyn7",
+        "object_id": "Gyn7"
+      },
+      {
+        "base_drawing_group_id": "mamma",
+        "title": "Mamma1",
+        "thumbnail_url": "thumbnails/t_mamma.gif",
+        "img_url": "images/mamma.gif",
+        "objectID": "Mamma1",
+        "object_id": "Mamma1"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "Surgery",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "surgery_1",
+        "title": "Surgery1",
+        "thumbnail_url": "thumbnails/t_surgery_1.gif",
+        "img_url": "images/surgery_1.gif",
+        "objectID": "Surgery1",
+        "object_id": "Surgery1"
+      },
+      {
+        "base_drawing_group_id": "surgery_2",
+        "title": "Surgery2",
+        "thumbnail_url": "thumbnails/t_surgery_2.jpg",
+        "img_url": "images/surgery_2.jpg",
+        "objectID": "Surgery2",
+        "object_id": "Surgery2"
+      },
+      {
+        "base_drawing_group_id": "surgery_3",
+        "title": "Surgery3",
+        "thumbnail_url": "thumbnails/t_surgery_3.jpg",
+        "img_url": "images/surgery_3.jpg",
+        "objectID": "Surgery3",
+        "object_id": "Surgery3"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "Rehab",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "rehab_1",
+        "title": "Rehab1",
+        "thumbnail_url": "thumbnails/t_rehab_1.gif",
+        "img_url": "images/rehab_1.gif",
+        "objectID": "Rehab1",
+        "object_id": "Rehab1"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "ทันตกรรม",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "dent_1",
+        "title": "ทันตกรรม1",
+        "thumbnail_url": "thumbnails/t_dent_1.gif",
+        "img_url": "images/dent_1.gif",
+        "objectID": "Dental1",
+        "object_id": "Dental1"
+      },
+      {
+        "base_drawing_group_id": "dent_2",
+        "title": "ทันตกรรม2",
+        "thumbnail_url": "thumbnails/t_dent_2.gif",
+        "img_url": "images/dent_2.gif",
+        "objectID": "Dental2",
+        "object_id": "Dental2"
+      },
+      {
+        "base_drawing_group_id": "dent_3",
+        "title": "ทันตกรรม3",
+        "thumbnail_url": "thumbnails/t_dent_3.gif",
+        "img_url": "images/dent_3.gif",
+        "objectID": "Dental3",
+        "object_id": "Dental3"
+      },
+      {
+        "base_drawing_group_id": "dent_4",
+        "title": "ทันตกรรม4",
+        "thumbnail_url": "thumbnails/t_dent_4.gif",
+        "img_url": "images/dent_4.gif",
+        "objectID": "Dental4",
+        "object_id": "Dental4"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "หู คอ จมูก",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "earAnatomy_1",
+        "title": "Ears Anatomy1",
+        "thumbnail_url": "thumbnails/t_earAnatomy_1.gif",
+        "img_url": "images/earAnatomy_1.gif",
+        "objectID": "Ears1",
+        "object_id": "Ears1"
+      },
+      {
+        "base_drawing_group_id": "earAnatomy_2",
+        "title": "Ears Anatomy2",
+        "thumbnail_url": "thumbnails/t_earAnatomy_2.gif",
+        "img_url": "images/earAnatomy_2.gif",
+        "objectID": "Ears2",
+        "object_id": "Ears2"
+      },
+      {
+        "base_drawing_group_id": "larynx_1",
+        "title": "Larynx1",
+        "thumbnail_url": "thumbnails/t_larynx_1.gif",
+        "img_url": "images/larynx_1.gif",
+        "objectID": "Ears3",
+        "object_id": "Ears3"
+      },
+      {
+        "base_drawing_group_id": "larynx_2",
+        "title": "Larynx2",
+        "thumbnail_url": "thumbnails/t_larynx_2.gif",
+        "img_url": "images/larynx_2.gif",
+        "objectID": "Ears4",
+        "object_id": "Ears4"
+      },
+      {
+        "base_drawing_group_id": "lymph_1",
+        "title": "Lymph1",
+        "thumbnail_url": "thumbnails/t_lymph_1.gif",
+        "img_url": "images/lymph_1.gif",
+        "objectID": "Ears5",
+        "object_id": "Ears5"
+      },
+      {
+        "base_drawing_group_id": "lymph_2",
+        "title": "Lymph2",
+        "thumbnail_url": "thumbnails/t_lymph_2.gif",
+        "img_url": "images/lymph_2.gif",
+        "objectID": "Ears6",
+        "object_id": "Ears6"
+      },
+      {
+        "base_drawing_group_id": "nasalNSP_1",
+        "title": "Nasal NSP1",
+        "thumbnail_url": "thumbnails/t_nasalNSP_1.gif",
+        "img_url": "images/nasalNSP_1.gif",
+        "objectID": "Ears7",
+        "object_id": "Ears7"
+      },
+      {
+        "base_drawing_group_id": "nasalNSP_2",
+        "title": "Nasal NSP2",
+        "thumbnail_url": "thumbnails/t_nasalNSP_2.gif",
+        "img_url": "images/nasalNSP_2.gif",
+        "objectID": "Ears8",
+        "object_id": "Ears8"
+      },
+      {
+        "base_drawing_group_id": "neck_1",
+        "title": "Neck1",
+        "thumbnail_url": "thumbnails/t_neck_1.gif",
+        "img_url": "images/neck_1.gif",
+        "objectID": "Ears9",
+        "object_id": "Ears9"
+      },
+      {
+        "base_drawing_group_id": "neck_2",
+        "title": "Neck2",
+        "thumbnail_url": "thumbnails/t_neck_2.gif",
+        "img_url": "images/neck_2.gif",
+        "objectID": "Ears10",
+        "object_id": "Ears10"
+      },
+      {
+        "base_drawing_group_id": "neck_3",
+        "title": "Neck3",
+        "thumbnail_url": "thumbnails/t_neck_3.gif",
+        "img_url": "images/neck_3.gif",
+        "objectID": "Ears11",
+        "object_id": "Ears11"
+      },
+      {
+        "base_drawing_group_id": "oralCavity_1",
+        "title": "Oral Cavity1",
+        "thumbnail_url": "thumbnails/t_oralCavity_1.gif",
+        "img_url": "images/oralCavity_1.gif",
+        "objectID": "Ears12",
+        "object_id": "Ears12"
+      },
+      {
+        "base_drawing_group_id": "oralCavity_2",
+        "title": "Oral Cavity2",
+        "thumbnail_url": "thumbnails/t_oralCavity_2.gif",
+        "img_url": "images/oralCavity_2.gif",
+        "objectID": "Ears13",
+        "object_id": "Ears13"
+      },
+      {
+        "base_drawing_group_id": "pinna_1",
+        "title": "Pinna2",
+        "thumbnail_url": "thumbnails/t_pinna_1.gif",
+        "img_url": "images/pinna_1.gif",
+        "objectID": "Ears14",
+        "object_id": "Ears14"
+      },
+      {
+        "base_drawing_group_id": "pinna_2",
+        "title": "Pinna1",
+        "thumbnail_url": "thumbnails/t_pinna_2.gif",
+        "img_url": "images/pinna_2.gif",
+        "objectID": "Ears15",
+        "object_id": "Ears15"
+      },
+      {
+        "base_drawing_group_id": "tympanicMb_1",
+        "title": "Tympanic Mb1",
+        "thumbnail_url": "thumbnails/t_tympanicMb_1.gif",
+        "img_url": "images/tympanicMb_1.gif",
+        "objectID": "Ears16",
+        "object_id": "Ears16"
+      },
+      {
+        "base_drawing_group_id": "tympanicMb_2",
+        "title": "Tympanic Mb2",
+        "thumbnail_url": "thumbnails/t_tympanicMb_2.gif",
+        "img_url": "images/tympanicMb_2.gif",
+        "objectID": "Ears17",
+        "object_id": "Ears17"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "อายุรกรรม",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "med1",
+        "title": "Medication 1",
+        "thumbnail_url": "thumbnails/t_med1.gif",
+        "img_url": "images/med1.gif",
+        "objectID": "med1",
+        "object_id": "med1"
+      },
+      {
+        "base_drawing_group_id": "med2",
+        "title": "Medication 2",
+        "thumbnail_url": "thumbnails/t_med2.gif",
+        "img_url": "images/med2.gif",
+        "objectID": "med2",
+        "object_id": "med2"
+      },
+      {
+        "base_drawing_group_id": "med3",
+        "title": "Medication 3",
+        "thumbnail_url": "thumbnails/t_med3.gif",
+        "img_url": "images/med3.gif",
+        "objectID": "med3",
+        "object_id": "med3"
+      },
+      {
+        "base_drawing_group_id": "med4",
+        "title": "Medication 4",
+        "thumbnail_url": "thumbnails/t_med4.gif",
+        "img_url": "images/med4.gif",
+        "objectID": "med4",
+        "object_id": "med4"
+      }
+    ]
+  },
+  {
+    "drawing_group_name": "กระดาษ",
+    "listBaseDrawingGroupDetail": [
+      {
+        "base_drawing_group_id": "spacer",
+        "title": "Empty",
+        "thumbnail_url": "thumbnails/t_spacer.gif",
+        "img_url": "images/spacer.gif",
+        "objectID": "Empty",
+        "object_id": "Empty"
+      }
+    ]
+  }
+]

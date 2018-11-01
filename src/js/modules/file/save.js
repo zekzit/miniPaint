@@ -4,7 +4,7 @@ import Helper_class from './../../libs/helpers.js';
 import Dialog_class from './../../libs/popup.js';
 import alertify from './../../../../node_modules/alertifyjs/build/alertify.min.js';
 import canvasToBlob from './../../../../node_modules/blueimp-canvas-to-blob/js/canvas-to-blob.min.js';
-import filesaver from './../../../../node_modules/file-saver/FileSaver.min.js';
+import realFilesaver from './../../../../node_modules/file-saver/FileSaver.min.js';
 import GIF from './../../libs/gifjs/gif.js';
 
 var instance = null;
@@ -283,7 +283,8 @@ class File_save_class {
 		}
 	}
 
-	save_action(user_response) {
+	save_action(user_response, otherFileSaver = null) {
+		let filesaver = otherFileSaver || realFilesaver;
 		var fname = user_response.name;
 		var only_one_layer = null;
 		if (user_response.layers == 'All')
