@@ -7,31 +7,31 @@ import config from './../../config.js';
 import Dialog_class from './../../libs/popup.js';
 
 var template = `
-	<div class="row">
+	<div class="row" style="display:none">
 		<span class="trn label">X</span>
 		<input type="number" id="detail_x" />
 		<button class="extra reset" type="button" id="reset_x" title="Reset">Reset</button>
 	</div>
-	<div class="row">
+	<div class="row" style="display:none">
 		<span class="trn label">Y:</span>
 		<input type="number" id="detail_y" />
 		<button class="extra reset" type="button" id="reset_y" title="Reset">Reset</button>
 	</div>
-	<div class="row">
+	<div class="row" style="display:none">
 		<span class="trn label">Width:</span>
 		<input type="number" id="detail_width" />
 		<button class="extra reset" type="button" id="reset_size" title="Reset">Reset</button>
 	</div>
-	<div class="row">
+	<div class="row" style="display:none">
 		<span class="trn label">Height:</span>
 		<input type="number" id="detail_height" />
 	</div>
-	<hr />
-	<div class="row">
+	<hr style="display:none"/>
+	<div class="row" style="display:none">
 		<span class="trn label">Rotate:</span>
 		<input type="number" min="-360" max="360" id="detail_rotate" />
 	</div>
-	<div class="row">
+	<div class="row" style="display:none">
 		<span class="trn label">Opacity:</span>
 		<input type="number" min="0" max="100" id="detail_opacity" />
 	</div>
@@ -45,13 +45,13 @@ var template = `
 			<button type="buton" class="" id="detail_param_text">Edit text...</button>
 			<button type="buton" class="" id="detail_param_bold">Bold</button>
 			<button type="buton" class="" id="detail_param_italic">Italic</button>
-			<button type="buton" class="" id="detail_param_stroke">Stroke</button>
+			<button style="display:none" type="buton" class="" id="detail_param_stroke">Stroke</button>
 		</div>
 		<div class="row">
 			<span class="trn label">Size:</span>
 			<input type="number" min="1" id="detail_param_size" />
 		</div>
-		<div class="row">
+		<div class="row" style="display:none">
 			<span class="trn label">Align:</span>
 			<select id="detail_param_align">
 				<option value="Left">Left</option>
@@ -59,7 +59,7 @@ var template = `
 				<option value="Right">Right</option>
 			</select>
 		</div>
-		<div class="row">
+		<div class="row" style="display:none">
 			<span class="trn label">Font:</span>
 			<select id="detail_param_family">
 				<option value="Arial">Arial</option>
@@ -71,7 +71,7 @@ var template = `
 				<option value="Verdana">Verdana</option>
 			</select>
 		</div>
-		<div class="row">
+		<div class="row" style="display:none">
 			<span class="trn label">Stroke:</span>
 			<input type="number" min="0" id="detail_param_stroke_size" />
 		</div>

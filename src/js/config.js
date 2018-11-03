@@ -5,8 +5,8 @@ var config = {};
 config.TRANSPARENCY = false;
 config.TRANSPARENCY_TYPE = 'squares'; //squares, green, grey
 config.LANG = 'en';
-config.WIDTH = null;
-config.HEIGHT = null;
+config.WIDTH = 1280;
+config.HEIGHT = 720;
 config.visible_width = null;
 config.visible_height = null;
 config.COLOR = '#0080C0';
@@ -26,6 +26,25 @@ config.themes = [
 ];
 
 config.TOOLS = [
+	{
+		name: 'add_image_from_template',
+		title: 'Add image from template...',
+		on_activate: 'on_activate',
+		attributes: {
+			size: 30,
+		},
+	},
+	{
+		name: 'add_image_from_local',
+		title: 'Add image from Computer...',
+		on_activate: 'on_activate',
+		attributes: {
+			size: 30,
+		},
+	},
+	{
+		name: 'separator'
+	},
 	{
 		name: 'select',
 		title: 'Select object tool',
@@ -119,14 +138,6 @@ config.TOOLS = [
 			size: 1,
 			fill: true,
 			circle: false,
-		},
-	},
-	{
-		name: 'media',
-		title: 'Search images',
-		on_activate: 'on_activate',
-		attributes: {
-			size: 30,
 		},
 	},
 	{

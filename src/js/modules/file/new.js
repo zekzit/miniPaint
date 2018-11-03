@@ -58,20 +58,33 @@ class File_new_class {
 			var transparency = false;
 		}
 
-		var settings = {
-			title: 'New file',
-			params: [
-				{name: "width", title: "Width:", value: w},
-				{name: "height", title: "Height:", value: h},
-				{name: "resolution", title: "Resolution:", values: resolutions},
-				{name: "transparency", title: "Transparent:", value: transparency},
-				{name: "save_resolution", title: "Save resolution:", value: save_resolution},
-			],
-			on_finish: function (params) {
-				_this.new_handler(params);
-			},
-		};
-		this.POP.show(settings);
+		// Override to our hard-coded settings
+		var params = {
+			width: 1280,
+			height: 720,
+			transparency: false,
+		 	resolution: "Custom",
+			save_resolution: false,
+		}
+		_this.new_handler(params);
+
+		// Old function, user can adjust before new image -------------------------------------
+		// var settings = {
+		// 	title: 'New file',
+		// 	params: [
+		// 		{name: "width", title: "Width:", value: w},
+		// 		{name: "height", title: "Height:", value: h},
+		// 		{name: "resolution", title: "Resolution:", values: resolutions},
+		// 		{name: "transparency", title: "Transparent:", value: transparency},
+		// 		{name: "save_resolution", title: "Save resolution:", value: save_resolution},
+		// 	],
+		// 	on_finish: function (params) {
+		// 		_this.new_handler(params);
+		// 	},
+		// };
+
+		// this.POP.show(settings);
+		// -------------------------------------------------------------------------------------
 	}
 
 	new_handler(response) {

@@ -63,20 +63,25 @@ class GUI_tools_class {
 		for (var i in config.TOOLS) {
 			var item = config.TOOLS[i];
 
-			var itemDom = document.createElement('span');
-			itemDom.id = item.name;
-			itemDom.title = item.title;
-			if (item.name == this.active_tool) {
-				itemDom.className = 'item trn active ' + item.name;
-			}
-			else {
-				itemDom.className = 'item trn ' + item.name;
-			}
+			var itemDom = null;
+			if(item.name != 'separator') {
+				itemDom = document.createElement('span');
+				itemDom.id = item.name;
+				itemDom.title = item.title;
+				if (item.name == this.active_tool) {
+					itemDom.className = 'item trn active ' + item.name;
+				}
+				else {
+					itemDom.className = 'item trn ' + item.name;
+				}
 
-			//event
-			itemDom.addEventListener('click', function (event) {
-				_this.activate_tool(this.id);
-			});
+				//event
+				itemDom.addEventListener('click', function (event) {
+					_this.activate_tool(this.id);
+				});
+			} else {
+				itemDom = document.createElement('hr');
+			}
 
 			//register
 			document.getElementById(target_id).appendChild(itemDom);

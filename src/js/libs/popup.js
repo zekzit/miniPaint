@@ -48,8 +48,10 @@ var instance = null;
 
 var template = `
 	<div id="pretitle_area"></div>
+	<a id="popup_close" class="popup-close-link">X</a>
 	<span class="grey right" id="popup_comment"></span>
 	<h2 class="trn" id="popup_title"></h2>
+	
 	<div id="dialog_content">
 		<div id="preview_content"></div>
 		<div id="params_content"></div>
@@ -317,6 +319,9 @@ class Dialog_class {
 		});
 		document.getElementById('popup_cancel').addEventListener('click', function (event) {
 			_this.cancel();
+		});
+		document.getElementById('popup_close').addEventListener('click', function (event) {
+			_this.hide();
 		});
 		var targets = document.querySelectorAll('#popup input');
 		for (var i = 0; i < targets.length; i++) {

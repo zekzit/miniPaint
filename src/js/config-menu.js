@@ -3,7 +3,6 @@ var menu_template = `
 		<li>
 			<a class="trn" href="#">File</a>
 			<ul style="width:200px">
-				<li><a class="trn" data-target="file/new.new" href="#">Start a new image</a></li>
 				<li><div class="mid-line"></div></li>
 				<!--li class="more">
 					<a class="trn" href="#">Open</a>
@@ -45,6 +44,8 @@ var menu_template = `
 				<li><a class="trn" data-target="edit/paste.paste" data-key="Ctrl+V" href="#">Paste</a></li>
 				<li><div class="mid-line"></div></li>
 				<li><a class="trn" data-target="edit/selection.select_all" href="#">Select all</a></li>
+				<li><div class="mid-line"></div></li>
+				<li><a class="trn" data-target="file/new.new" href="#">Clear all</a></li>
 			</ul>
 		</li>
 		<li>
