@@ -311,9 +311,9 @@ class GUI_details_class {
 			//events
 			document.getElementById('detail_param_text').addEventListener('click', function (e) {
 				var settings = {
-					title: 'Edit text',
+					title: 'แก้ไขข้อความ',
 					params: [
-						{name: "text", title: "Text:", value: config.layer.params.text || "", type: "textarea"},
+						{name: "text", type: "textarea", title: "ข้อความ:", value: config.layer.params.text || "", placeholder: "เพิ่มข้อความที่นี่"},
 					],
 					on_finish: function (params) {
 						config.layer.params.text = params.text;

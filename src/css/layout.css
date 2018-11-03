@@ -113,12 +113,13 @@
 
 .logo{
 	position: relative;
-	display: inline-block;
+	/* display: inline-block; */
 	float: left;
 	height: 30px;
-	width: 110px;
-	padding: 5px 5px 5px 36px;
-	margin: 5px;
+	width: 66px;
+	padding: 3px 5px 5px 30px;
+	margin: 8px;
+	margin-left:12px;
 	font-size: 14px;
 	text-decoration: none;
 	font-weight: bold;
@@ -132,7 +133,7 @@
 	top: 0;
 	width: 31px;
 	height: 30px;
-	background: url(images/sprites.png) -50px -100px no-repeat;
+	background: url(images/save.png) no-repeat;
 }
 .logo:hover:after{
 	animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97);

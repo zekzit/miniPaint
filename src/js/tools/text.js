@@ -124,9 +124,9 @@ class Text_class extends Base_tools_class {
 
 		//ask for text
 		var settings = {
-			title: 'Edit text',
+			title: 'แก้ไขข้อความ',
 			params: [
-				{name: "text", title: "Text:", value: "Text example"},
+				{name: "text", type: "textarea", title: "ข้อความ:", value: "", placeholder: "เพิ่มข้อความที่นี่"},
 			],
 			on_finish: function (params) {
 				if (config.layer.type == 'text' && params.text != '') {
@@ -140,13 +140,13 @@ class Text_class extends Base_tools_class {
 
 	render(ctx, layer) {
 		if (layer.width == 0 && layer.height == 0)
-			return;
+		return;
 		var params = layer.params;
-
+		
 		var text = params.text;
 		if (params.text == undefined) {
-			params.text = "Text example";
-			text = "Text example";
+			params.text = "< ข้อความ >";
+			text = "< ข้อความ >";
 		}
 		var size = params.size;
 		var font = params.family.value;
@@ -180,10 +180,16 @@ class Text_class extends Base_tools_class {
 			start_x = layer.x + Math.round(layer.width / 2);
 		}
 
-		if (stroke == false)
-			ctx.fillText(text, start_x, layer.y);
-		else
-			ctx.strokeText(text, start_x, layer.y);
+		var lineheight = params.size + 5;
+		var lines = text.split('\n');
+
+		for (var i = 0; i<lines.length; i++) {
+			if (stroke == false) {
+				ctx.fillText(lines[i], start_x, layer.y + (i*lineheight));
+			} else {
+				ctx.strokeText(lines[i], start_x, layer.y + (i*lineheight));
+			}
+		}
 	}
 
 }

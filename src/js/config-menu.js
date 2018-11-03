@@ -2,21 +2,23 @@ var menu_template = `
 	<ul>
 		<li>
 			<a class="trn" href="#">File</a>
-			<ul>
-				<li><a class="trn" data-target="file/new.new" href="#">New</a></li>
+			<ul style="width:200px">
+				<li><a class="trn" data-target="file/new.new" href="#">Start a new image</a></li>
 				<li><div class="mid-line"></div></li>
-				<li class="more">
+				<!--li class="more">
 					<a class="trn" href="#">Open</a>
 					<ul>
 					<li><a class="trn dots" data-target="file/open.open_file" data-key="Drag&Drop" href="#">Open File</a></li>
-					<!--li><a class="trn dots" data-target="file/open.open_dir" href="#">Open Directory</a></li-->
+					<li><a class="trn dots" data-target="file/open.open_dir" href="#">Open Directory</a></li>
 					<li><a class="trn dots" data-target="file/open.open_webcam" href="#">Open from Webcam</a></li>
-					<!--li><a class="trn dots" data-target="file/open.open_url" href="#">Open URL</a></li-->
-					<!--li><a class="trn dots" data-target="file/open.open_data_url" href="#">Open Data URL</a></li-->
-					<!--li><a class="trn dots" data-target="file/open.open_template_test" href="#">Open test template</a></li-->
+					<li><a class="trn dots" data-target="file/open.open_url" href="#">Open URL</a></li>
+					<li><a class="trn dots" data-target="file/open.open_data_url" href="#">Open Data URL</a></li>
+					<li><a class="trn dots" data-target="file/open.open_template_test" href="#">Open test template</a></li>
 					</ul>
-				</li>
-				<li><a class="trn dots" data-target="file/search.search" href="#">Search images</a></li>
+				</li-->
+				<li><a class="trn dots" data-target="file/search.search" href="#">Add image from template</a></li>
+				<li><a class="trn dots" data-target="file/open.open_file" href="#">Add image from file</a></li>
+				<li><a class="trn dots" data-target="file/open.open_webcam" href="#">Add image from webcam</a></li>
 				<li><div class="mid-line"></div></li>
 				<!--li><a class="trn dots" data-target="file/save.save" data-key="S" href="#">Save as</a></li -->
 				<!--li><a class="trn dots" data-target="file/save.save_data_url" href="#">Save as data URL</a></li-->
@@ -25,9 +27,10 @@ var menu_template = `
 				<!--li><a class="trn" data-target="file/quicksave.quicksave" data-key="F9" href="#">Quick save</a></li-->
 				<!--li><a class="trn" data-target="file/quickload.quickload" data-key="F10" href="#">Quick load</a></li-->
 				<li><div class="mid-line"></div></li>
-				<li><a class="trn" data-target="imed/interface.delete" href="#">Delete</a></li>
-				<li><a class="trn" data-target="imed/interface.save" href="#">Save</a></li>
-				<li><a class="trn" data-target="imed/interface.save_and_close" href="#">Save and Close</a></li>
+				<li><a class="trn" data-target="imed/interface.save" href="#">Save to iMed</a></li>
+				<li><a class="trn" data-target="imed/interface.delete" href="#">Delete from iMed</a></li>
+				<li><div class="mid-line"></div></li>
+				<li><a class="trn" data-target="imed/interface.save_and_close" href="#">Save to iMed and Close</a></li>
 				<li><a class="trn" data-target="imed/interface.close" href="#">Close</a></li>
 
 			</ul>
