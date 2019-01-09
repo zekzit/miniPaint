@@ -118,8 +118,7 @@
   /* display: inline-block; */
   float: left;
   height: 30px;
-  width: 66px;
-  padding: 3px 5px 5px 30px;
+  width: 80px;
   margin: 8px;
   margin-left: 12px;
   font-size: 14px;
@@ -128,15 +127,7 @@
   color: #ffffff;
   color: var(--text-color);
 }
-.logo:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  width: 31px;
-  height: 30px;
-  background: url(images/save.png) no-repeat;
-}
+
 .logo:hover:after {
   animation: pop 0.2s linear 1;
 }
