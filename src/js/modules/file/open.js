@@ -126,7 +126,7 @@ class File_open_class {
 					height_original: height,
 				};
 				this.Base_layers.insert(new_layer);
-				_this.Base_layers.autoresize(width, height);
+				// _this.Base_layers.autoresize(width, height);
 				
 				//destroy
 				track.stop();
@@ -204,7 +204,7 @@ class File_open_class {
 				height_original: img.height,
 			};
 			_this.Base_layers.insert(new_layer);
-			_this.Base_layers.autoresize(img.width, img.height);
+			// _this.Base_layers.autoresize(img.width, img.height);
 			img.onload = function () {
 				config.need_render = true;
 			};

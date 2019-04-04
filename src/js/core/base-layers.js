@@ -365,7 +365,7 @@ class Base_layers_class {
 							//free data
 
 							layer.data = null;
-							_this.autoresize(layer.width, layer.height, layer.id, can_automate);
+							// _this.autoresize(layer.width, layer.height, layer.id, can_automate);
 							_this.render();
 							layer.link.onload = function () {
 								config.need_render = true;
