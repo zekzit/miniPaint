@@ -50,6 +50,9 @@ class Select_tool_class extends Base_tools_class {
 		document.addEventListener('mousemove', function (event) {
 			_this.dragMove(event);
 		});
+		document.addEventListener('dblclick', function (event) {
+			_this.dragStart(event);
+		});
 
 		// collect touch events
 		document.addEventListener('touchstart', function (event) {
@@ -109,6 +112,23 @@ class Select_tool_class extends Base_tools_class {
 			x: config.layer.x,
 			y: config.layer.y,
 		};
+		if(mouse.is_dblclick && config.layer.type == 'text') {
+			//ask for text
+			const _this = this;
+			var settings = {
+				title: 'แก้ไขข้อความ',
+				params: [
+					{name: "text", type: "textarea", title: "ข้อความ:", value: config.layer.params.text, placeholder: "เพิ่มข้อความที่นี่"},
+				],
+				on_finish: function (params) {
+					if (config.layer.type == 'text' && params.text != '') {
+						config.layer.params.text = params.text;
+						config.need_render = true;
+					}
+				},
+			};
+			this.POP.show(settings);
+		}
 	}
 
 	mousemove(e) {

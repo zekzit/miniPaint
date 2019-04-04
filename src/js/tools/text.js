@@ -3,6 +3,7 @@ import Base_tools_class from './../core/base-tools.js';
 import Base_layers_class from './../core/base-layers.js';
 import Helper_class from './../libs/helpers.js';
 import Dialog_class from './../libs/popup.js';
+import GUI_tools_class from './../core/gui/gui-tools.js';
 
 class Text_class extends Base_tools_class {
 
@@ -11,6 +12,7 @@ class Text_class extends Base_tools_class {
 		this.Base_layers = new Base_layers_class();
 		this.Helper = new Helper_class();
 		this.POP = new Dialog_class();
+		this.GUI_tools = new GUI_tools_class();
 		this.ctx = ctx;
 		this.name = 'text';
 		this.layer = {};
@@ -123,6 +125,7 @@ class Text_class extends Base_tools_class {
 		this.Base_layers.render();
 
 		//ask for text
+		const _this = this;
 		var settings = {
 			title: 'แก้ไขข้อความ',
 			params: [
@@ -133,6 +136,7 @@ class Text_class extends Base_tools_class {
 					config.layer.params.text = params.text;
 					config.need_render = true;
 				}
+				_this.GUI_tools.activate_tool('select');
 			},
 		};
 		this.POP.show(settings);

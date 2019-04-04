@@ -14,6 +14,7 @@ class Base_tools_class {
 	constructor(save_mouse) {
 		this.Base_layers = new Base_layers_class();
 		this.is_drag = false;
+		this.is_dblclick = false;
 		this.mouse_click_pos = [false, false];
 		this.mouse_move_last = [false, false];
 		this.canvas_offset = {x: null, y: null};
@@ -56,8 +57,6 @@ class Base_tools_class {
 	events() {
 		var _this = this;
 
-
-
 		//collect mouse info
 		document.addEventListener('mousedown', function (event) {
 			_this.dragStart(event);
@@ -66,6 +65,10 @@ class Base_tools_class {
 			_this.dragMove(event);
 		});
 		document.addEventListener('mouseup', function (event) {
+			_this.dragEnd(event);
+		});
+		document.addEventListener('dblclick', function (event) {
+			_this.dragStart(event);
 			_this.dragEnd(event);
 		});
 
@@ -112,12 +115,19 @@ class Base_tools_class {
 			this.mouse_valid = true;
 		}
 
-		if (eventType === 'mousedown' || eventType === 'touchstart') {
+		if (eventType === 'mousedown' || eventType === 'touchstart' || eventType == 'dblclick') {
 			if (event.target.id != "canvas_minipaint" || (event.which != 1 && eventType !== 'touchstart'))
 				this.mouse_click_valid = false;
 			else
 				this.mouse_click_valid = true;
 			this.mouse_valid = true;
+		}
+
+		if(eventType == 'dblclick') {
+			this.is_dblclick = true;
+			this.is_drag = false;
+		} else {
+			this.is_dblclick = false;
 		}
 
 		if (event != undefined && event.changedTouches) {
@@ -151,6 +161,7 @@ class Base_tools_class {
 			click_valid: this.mouse_click_valid,
 			is_drag: this.is_drag,
 			speed_average: this.speed_average,
+			is_dblclick: this.is_dblclick,
 		};
 
 		if (eventType === 'mousemove' || eventType === 'touchmove') {
