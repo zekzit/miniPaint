@@ -365,7 +365,7 @@ class Base_layers_class {
 							//free data
 
 							layer.data = null;
-							// _this.autoresize(layer.width, layer.height, layer.id, can_automate);
+							_this.autoresize(layer.width, layer.height, layer.id, can_automate);
 							_this.render();
 							layer.link.onload = function () {
 								config.need_render = true;
@@ -451,13 +451,13 @@ class Base_layers_class {
 				config.HEIGHT = parseInt(height);
 		}
 
-		//resize down
-		if (config.layers.length == 1 && can_automate !== false) {
-			if (width < config.WIDTH)
-				config.WIDTH = parseInt(width);
-			if (height < config.HEIGHT)
-				config.HEIGHT = parseInt(height);
-		}
+		// //resize down
+		// if (config.layers.length == 1 && can_automate !== false) {
+		// 	if (width < config.WIDTH)
+		// 		config.WIDTH = parseInt(width);
+		// 	if (height < config.HEIGHT)
+		// 		config.HEIGHT = parseInt(height);
+		// }
 
 		this.Base_gui.prepare_canvas();
 
