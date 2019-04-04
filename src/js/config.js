@@ -85,6 +85,7 @@ config.TOOLS = [
 	{
 		name: 'erase',
 		title: 'Erase',
+		on_activate: 'on_activate',
 		on_update: 'on_params_update',
 		attributes: {
 			size: 30,

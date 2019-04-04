@@ -2,12 +2,14 @@ import config from './../config.js';
 import Base_tools_class from './../core/base-tools.js';
 import Base_layers_class from './../core/base-layers.js';
 import alertify from './../../../node_modules/alertifyjs/build/alertify.min.js';
+import Layer_raster_class from './../modules/layer/raster.js';
 
 class Erase_class extends Base_tools_class {
 
 	constructor(ctx) {
 		super();
 		this.Base_layers = new Base_layers_class();
+		this.Layer_raster = new Layer_raster_class();
 		this.ctx = ctx;
 		this.name = 'erase';
 		this.tmpCanvas = null;
@@ -81,6 +83,14 @@ class Erase_class extends Base_tools_class {
 		else {
 			//show strict controlls
 			strict_element.style.display = 'block';
+		}
+	}
+
+	on_activate() {
+		try{
+			this.Layer_raster.raster();
+		} catch(e) {
+			console.log("No need to raster this layer.");
 		}
 	}
 

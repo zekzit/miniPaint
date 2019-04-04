@@ -13,3 +13,6 @@ nbproject/
 *.log
 
 /node_modules/
+dist/
+dist/bundle.js
+dist/bundle.js.map
