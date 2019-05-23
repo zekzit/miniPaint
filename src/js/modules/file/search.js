@@ -188,10 +188,10 @@ class File_search_media_class {
 	const templateItemImage = $("<div>");
 	const templateItemText = $("<div>");
 
-	templateItem.data("url", `templates/${drawing.imgUrl}`);
+	templateItem.data("url", `${drawing.imgUrl}`);
 	templateItemImage.css(
 	  "background-image",
-	  `url('templates/${drawing.thumbnailUrl}`
+	  `url('${drawing.thumbnailUrl}`
 	);
 	templateItemImage.css("background-position", "center");
 	templateItemImage.css("background-size", "contain");
