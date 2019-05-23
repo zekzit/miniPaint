@@ -132,8 +132,8 @@ class File_search_media_class {
         selectDrawingGroups.append(defaultOption);
         drawingGroups.map(group => {
           let groupOption = $("<option>");
-          groupOption.text(group.drawing_group_name);
-          groupOption.val(group.drawing_group_name);
+          groupOption.text(group.baseDrawingGroupName);
+          groupOption.val(group.baseDrawingGroupName);
           selectDrawingGroups.append(groupOption);
         });
         container.append(selectDrawingGroups);
@@ -159,16 +159,16 @@ class File_search_media_class {
         $("#drawingGroupSelector").on("change", function(event) {
           const selectedGroupName = event.target.value;
           const selectedGroup = drawingGroups.find(
-            group => group.drawing_group_name == selectedGroupName
+            group => group.baseDrawingGroupName == selectedGroupName
           );
           const templatePanel = $("#template-panel");
 
           templatePanel.empty();
           if (
             selectedGroup &&
-            selectedGroup.listBaseDrawingGroupDetail.length > 0
+            selectedGroup.drawingGroupDetails.length > 0
           ) {
-            selectedGroup.listBaseDrawingGroupDetail.forEach(drawing => {
+            selectedGroup.drawingGroupDetails.forEach(drawing => {
 			  let templateItem = _this._createTemplatePanel(drawing, _this);
 			  templatePanel.css("text-align", "left");
               templatePanel.append(templateItem);
@@ -188,10 +188,10 @@ class File_search_media_class {
 	const templateItemImage = $("<div>");
 	const templateItemText = $("<div>");
 
-	templateItem.data("url", `templates/${drawing.img_url}`);
+	templateItem.data("url", `templates/${drawing.imgUrl}`);
 	templateItemImage.css(
 	  "background-image",
-	  `url('templates/${drawing.thumbnail_url}`
+	  `url('templates/${drawing.thumbnailUrl}`
 	);
 	templateItemImage.css("background-position", "center");
 	templateItemImage.css("background-size", "contain");
@@ -222,14 +222,14 @@ class File_search_media_class {
     let divAllImages = $("<div>");
     drawingGroups.forEach(group => {
 		let divLabel = $('<div>');
-		divLabel.text(group.drawing_group_name);
+		divLabel.text(group.baseDrawingGroupName);
 		divLabel.css('width', '100%');
 		divLabel.css('background-color', 'white');
 		divLabel.css('font-size', 'large');
 		divLabel.css('font-weight', 'bold');
 		divLabel.css('margin-top', '0.5em');
 		divAllImages.append(divLabel);
-		group.listBaseDrawingGroupDetail.forEach(drawing => {
+		group.drawingGroupDetails.forEach(drawing => {
 			let templateItem = this._createTemplatePanel(drawing, _this);
 			divAllImages.append(templateItem);
 		});
