@@ -101,7 +101,7 @@ class Base_gui_class {
 	}
 
 	render_main_gui() {
-		this.autodetect_dimensions();
+		// this.autodetect_dimensions();
 
 		this.change_theme();
 		this.prepare_canvas();
@@ -185,8 +185,10 @@ class Base_gui_class {
 		var page_w = wrapper.clientWidth;
 		var page_h = wrapper.clientHeight;
 
-		var w = Math.min(Math.ceil(config.WIDTH * config.ZOOM), page_w);
-		var h = Math.min(Math.ceil(config.HEIGHT * config.ZOOM), page_h);
+		// var w = Math.min(Math.ceil(config.WIDTH * config.ZOOM), page_w);
+		// var h = Math.min(Math.ceil(config.HEIGHT * config.ZOOM), page_h);
+		var w = Math.ceil(config.WIDTH * config.ZOOM);
+		var h = Math.ceil(config.HEIGHT * config.ZOOM);
 
 		canvas.width = w;
 		canvas.height = h;

@@ -60,8 +60,8 @@ class File_new_class {
 
 		// Override to our hard-coded settings
 		var params = {
-			width: 1280,
-			height: 720,
+			width: 1024,
+			height: 768,
 			transparency: false,
 		 	resolution: "Custom",
 			save_resolution: false,
